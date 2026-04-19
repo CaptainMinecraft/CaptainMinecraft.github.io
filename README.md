@@ -1,2 +1,3 @@
 # CaptainMinecraft.github.io
 my first ever repository   , (in html btw lel)
+i will be trying to update this every week, even though no one is even gonna go to the website...
