@@ -1,3 +1,6 @@
+body{
+  margin: 25pt;
+}
  button {
       background-color: cornflowerblue;
       border-radius: 10pt;
@@ -10,10 +13,12 @@
       color: white;
       inline-size: 50pt;
       height: 50pt;
+      border-radius: 5pt;
     }
     #Light {
       background-color: white;
       border-color: black;
       inline-size: 50pt;
       height: 50pt;
+      border-radius: 5pt;
     }
