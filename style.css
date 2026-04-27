@@ -1,0 +1,19 @@
+ button {
+      background-color: cornflowerblue;
+      border-radius: 10pt;
+      border-color: black;
+      
+    }
+    #Night {
+      background-color: black;
+      border-color: grey;
+      color: white;
+      inline-size: 50pt;
+      height: 50pt;
+    }
+    #Light {
+      background-color: white;
+      border-color: black;
+      inline-size: 50pt;
+      height: 50pt;
+    }
