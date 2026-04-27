@@ -1,10 +1,12 @@
 body{
-  margin: 25pt;
+  margin: 7pt;
 }
  button {
       background-color: cornflowerblue;
       border-radius: 10pt;
-      border-color: black;
+      color: white;
+      width: 50pt;
+      height: 25pt;
       
     }
     #Night {
@@ -18,7 +20,14 @@ body{
     #Light {
       background-color: white;
       border-color: black;
+      color: black;
       inline-size: 50pt;
       height: 50pt;
       border-radius: 5pt;
+    }
+    button {
+      transition: transform 0.3s ease;
+    }
+    button:hover {
+      transform: scale(1.1);
     }
