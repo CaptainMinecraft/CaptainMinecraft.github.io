@@ -1,4 +1,22 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'/><html>
+  <style>
+    button {
+      background-color: cornflowerblue;
+      border-radius: 1000pt;
+      border-color: black;
+      
+    }
+    #Night {
+      background-color: black;
+      border-color: white;
+      color: white;
+    }
+    #Light {
+      background-color: white;
+      border-color: black;
+    }
+    
+  </style>
       <heading>Welcome to CaptainMinecraft's webpage !</heading>
       <body>
         <h4> About me! </h4>
@@ -15,12 +33,13 @@
             have a great day !</p>
           <h4> made by CaptainMinecraft :D </h4>
             <p> Save your eyes!!!</p>
-           <button id="o" onclick="LightMode()">
+           <button id="Light" onclick="LightMode()">
            Light Theme
            </button>
            <br>
+           <br>
            <!-- added these options to save peoples eyes. -->
-            <button id="Click me!" onclick="NightMode()">
+            <button id="Night" onclick="NightMode()">
            Night Theme
            </button>
            <marquee behavior="scroll" direction="left">
@@ -30,7 +49,7 @@
             <img src="captainminecraft.png" width="150" height="150" alt="" id="HitsI" onclick="Meow()">
             <p id="HitsP">0 hits</p>
             <button id="reset" onclick="reset()">RESET</button>
-            <script src="interaction.js" defer></script>
+            <script src="Interaction.js" defer></script>
             
           </body>
 </html
