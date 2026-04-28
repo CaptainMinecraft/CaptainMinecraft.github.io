@@ -3,12 +3,11 @@ body{
 }
  button {
       background-color: cornflowerblue;
-      border-radius: 10pt;
+      border-radius: 5pt;
       color: white;
       width: 50pt;
       height: 25pt;
-      
-    }
+ }
     #Night {
       background-color: black;
       border-color: grey;
@@ -31,3 +30,25 @@ body{
     button:hover {
       transform: scale(1.1);
     }
+    .menu {
+      display: none;
+    }
+   #menu {
+      top: 10;
+      right: 10;
+      position: fixed;
+      z-index: 1000;
+      opacity: 30%;
+   }
+      #Light {
+      top: 50;
+      right: 10;
+      position: fixed;
+      z-index: 1000;
+   }
+      #Night {
+      top: 125;
+      right: 10;
+      position: fixed;
+      z-index: 1000;
+   }

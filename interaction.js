@@ -34,4 +34,9 @@ let HITSS = 0
    HITSS = 0
    Hits.textContent = 0 + (" hits")
  }
+ const settings = document.getElementById("menu")
+ const settingsList = document.getElementById("menuList")
+ menu.addEventListener("click", () => 
+ menuList.classList.toggle("menu")
+ )
  
