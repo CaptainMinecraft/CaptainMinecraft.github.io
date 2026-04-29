@@ -1,22 +1,38 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'/>
 <html>
-   <head><link rel="stylesheet" href="style.css"></head>
+   <head> 
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="animation.css"> 
+   </head>
   <heading>Welcome to CaptainMinecraft's webpage ! </heading>
       <body>
+       <marquee behavior="scroll" direction="left">
+           WELCOME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+           </marquee> 
         <h4> About me! </h4>
           <p> My real name will not be included but you can call me CaptainMinecraft !
-          I like to play minecraft very much , you can tell by my username. I also like to learn coding languages, fun fact this webpage is actually me testing my html code !
+          I like to play minecraft very much , you can tell by my username. I also like to learn coding languages, fun fact this webpage is actually mt first html project !
           </p>
             <br>
             <h4> My Social Media account !</h4>
             <p> My youtube channel username is @itzcaptainmc {btw the channel is not active, and 68 videos are privated}
             It has 2.3k subscribers, i lost motivation so i stopped posting.
             </p>
+            <h5>MY GOALS:</h5>
+            <list>
+              <li>
+                Learn Web development.
+              </li>
+              <li>
+                Learn multiple programming languages.
+              </li>
+              <li> Make projects and apps. </li>
+            </list>
             <br>
             <p>well... that's it !
-            have a great day !
+            have a great day !</p>
             <button id=menu>Settings</button>
-            <div id="menuList" class="menu"> 
+            <div id="menuList" class="hide"> 
             <button id="Light" onclick="LightMode()">
            Light Theme
            </button>
@@ -25,12 +41,10 @@
            Night Theme
            </button>
             </div>
-           <marquee behavior="scroll" direction="left">
-           WELCOME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-           </marquee>
+           
            <br>
             <p>this is my current profile picture on some platforms ! </p>
-            <img src="captainminecraft.png" width="150" height="150" alt="" id="HitsI" onclick="Meow()">
+            <img src="captainminecraft.png" width="150" height="150" alt="" id="HitsI" onclick="Meow()" class="press">
             <p id="HitsP">0 hits</p>
             <button id="reset" onclick="reset()">RESET</button>
             <script src="interaction.js" defer></script>

@@ -1,5 +1,6 @@
 body{
   margin: 7pt;
+  font-family: Trebuchet MS;
 }
  button {
       background-color: cornflowerblue;
@@ -24,15 +25,7 @@ body{
       height: 50pt;
       border-radius: 5pt;
     }
-    button {
-      transition: transform 0.3s ease;
-    }
-    button:hover {
-      transform: scale(1.1);
-    }
-    .menu {
-      display: none;
-    }
+   
    #menu {
       top: 10;
       right: 10;
@@ -52,3 +45,4 @@ body{
       position: fixed;
       z-index: 1000;
    }
+  

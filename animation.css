@@ -1,0 +1,22 @@
+ .hover {
+      transition: transform 0.3s ease;
+    }
+    .hover:hover {
+      transform: scale(1.1);
+    }
+    .hide {
+      display: none;
+    }
+      .press {
+     transition: transform 0.3s ease;
+   }
+   .press:active {
+      transform: scale(1.1);
+   }
+ button {
+     transition: transform 0.3s ease;
+   }
+   button:active {
+      transform: scale(1.1);
+   }
+   !important I added a button and .press animation so i can animate non-button elements , like my image and also i want all buttons to behabe like this.

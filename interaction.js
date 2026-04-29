@@ -12,17 +12,22 @@ let HITSS = 0
  
  function Meow() {
    HITSS ++;
-   audio ++;
+   let audio = Math.floor(Math.random() * 10)
    
-   if ( audio < 5 ) {
+   if ( audio <= 5 ) {
      let audioPUNCH = new Audio('punch.mp3')
      audioPUNCH.play();
    }
-   else if ( audio == 5 ) {
+   else if ( audio >= 6 ) {
     let audioOUCH = new Audio('ouch.mp3')
     audioOUCH.play()
-    audio = 0
+    audio = Math.floor(Math.random() * 10)
    }
+ }
+ function reset() {
+    HITSS = 0
+    audio = 0
+   Hits.textContent = 0 + (" hits")
  }
  console.dir(document)
  const Hits = document.getElementById("HitsP")
@@ -30,13 +35,8 @@ let HITSS = 0
  image1.addEventListener ("click", function() {
    Hits.textContent = HITSS + (" hits")
  });
- function reset() {
-   HITSS = 0
-   Hits.textContent = 0 + (" hits")
- }
  const settings = document.getElementById("menu")
  const settingsList = document.getElementById("menuList")
  menu.addEventListener("click", () => 
- menuList.classList.toggle("menu")
+ menuList.classList.toggle("hide")
  )
- 
